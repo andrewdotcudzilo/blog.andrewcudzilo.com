@@ -1,9 +1,23 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1472691078,
-    'checksum' => '4de33ecfa36c45806c452568b286a07b',
+    'timestamp' => 1472691870,
+    'checksum' => '2af0e7605d3c090e9df79a3f2087b899',
     'files' => [
+        'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config' => [
+            'security' => [
+                'file' => 'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/security.yaml',
+                'modified' => 1472691077
+            ],
+            'site' => [
+                'file' => 'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/site.yaml',
+                'modified' => 1472691826
+            ],
+            'system' => [
+                'file' => 'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/system.yaml',
+                'modified' => 1472691779
+            ]
+        ],
         'user/config' => [
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -15,7 +29,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1472691064
+                'modified' => 1472691725
             ]
         ],
         'system/config' => [
@@ -475,7 +489,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'blog.andrewcudzilo.com(dev)',
             'author' => [
                 'name' => 'Joe Bloggs',
                 'email' => 'joe@test.com'
@@ -619,7 +633,7 @@ return [
                 ]
             ],
             'cache' => [
-                'enabled' => true,
+                'enabled' => false,
                 'check' => [
                     'method' => 'file'
                 ],
@@ -658,7 +672,7 @@ return [
                 'log' => true
             ],
             'debugger' => [
-                'enabled' => false,
+                'enabled' => true,
                 'shutdown' => [
                     'close_connection' => true
                 ],

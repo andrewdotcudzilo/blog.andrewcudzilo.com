@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
-    'filename' => '/home/ubuntu/workspace/user/config/system.yaml',
-    'modified' => 1472691725,
+    'filename' => '/home/ubuntu/workspace/user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/system.yaml',
+    'modified' => 1472691779,
     'data' => [
         'home' => [
             'alias' => '/blog'
@@ -15,7 +15,7 @@ return [
             ]
         ],
         'cache' => [
-            'enabled' => true,
+            'enabled' => false,
             'check' => [
                 'method' => 'file'
             ],
@@ -36,7 +36,7 @@ return [
             'js_minify' => true
         ],
         'debugger' => [
-            'enabled' => false,
+            'enabled' => true,
             'twig' => true,
             'shutdown' => [
                 'close_connection' => true
