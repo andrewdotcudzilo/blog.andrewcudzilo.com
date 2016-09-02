@@ -2,18 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ubuntu/workspace/user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/site.yaml',
-    'modified' => 1472691826,
+    'modified' => 1472777694,
     'data' => [
         'title' => 'blog.andrewcudzilo.com(dev)',
         'author' => [
-            'name' => 'Joe Bloggs',
-            'email' => 'joe@test.com'
+            'name' => 'Andrew Cudzilo',
+            'email' => 'andrew.cudzilo@gmail.com'
         ],
         'blog' => [
             'route' => ''
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'Code, Rambles, Fatherhood'
         ],
         'taxonomies' => [
             0 => 'category',

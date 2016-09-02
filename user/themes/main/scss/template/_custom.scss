@@ -1,0 +1,52 @@
+// Your custom SCSS should be written here...
+@import url(https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise|Reenie+Beanie|Covered+By+Your+Grace|Gloria+Hallelujah|Montserrat:400|Raleway:300,400,600|Inconsolata);
+
+$font-family-handwrite:  'Covered By Your Grace', cursive;
+$font-family-header:     'Covered By Your Grace', cursive;
+
+
+.grav-lightslider {
+    .lSSlideOuter {
+        .lSPager.lSpg {
+            > li a {
+                z-index: 1;
+            }
+        }
+    }
+}
+
+#body > script:first-child + .grav-lightslider {
+  margin-top: -3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: $font-family-handwrite;
+   font-weight: 400;
+}
+
+#header > #navbar > ul.navigation > li > a {
+  font-family: $font-family-handwrite;
+}
+
+.blog-header h2 {
+  font-family: $font-family-handwrite;
+}
+
+.list-item .list-blog-date {
+  font-family: $font-family-handwrite;
+}
+
+.list-item .list-blog-date span {
+  display: inline;
+}
+.list-item .list-blog-date em {
+  display: inline;
+}
+
+.social-links li a {
+  color: #444; 
+}
+.social-links li a:hover {
+  color: red; 
+}
+

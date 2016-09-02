@@ -2,20 +2,20 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ubuntu/workspace/user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/system.yaml',
-    'modified' => 1472691779,
+    'modified' => 1472777764,
     'data' => [
         'home' => [
             'alias' => '/blog'
         ],
         'pages' => [
-            'theme' => 'antimatter',
+            'theme' => 'main',
             'process' => [
                 'markdown' => true,
                 'twig' => false
             ]
         ],
         'cache' => [
-            'enabled' => false,
+            'enabled' => true,
             'check' => [
                 'method' => 'file'
             ],

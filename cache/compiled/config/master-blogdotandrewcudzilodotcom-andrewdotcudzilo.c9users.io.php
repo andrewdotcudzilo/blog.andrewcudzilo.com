@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1472691870,
-    'checksum' => '2af0e7605d3c090e9df79a3f2087b899',
+    'timestamp' => 1472778043,
+    'checksum' => 'b74d0141da6908cfbc871c6f1da7992f',
     'files' => [
         'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config' => [
             'security' => [
@@ -11,11 +11,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/site.yaml',
-                'modified' => 1472691826
+                'modified' => 1472777694
             ],
             'system' => [
                 'file' => 'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/system.yaml',
-                'modified' => 1472691779
+                'modified' => 1472777764
             ]
         ],
         'user/config' => [
@@ -29,7 +29,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1472691725
+                'modified' => 1472777721
             ]
         ],
         'system/config' => [
@@ -491,8 +491,8 @@ return [
         'site' => [
             'title' => 'blog.andrewcudzilo.com(dev)',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@test.com'
+                'name' => 'Andrew Cudzilo',
+                'email' => 'andrew.cudzilo@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -500,7 +500,7 @@ return [
                 2 => 'month'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Code, Rambles, Fatherhood'
             ],
             'summary' => [
                 'enabled' => true,
@@ -566,7 +566,7 @@ return [
                 'hide_in_urls' => false
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'main',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'
@@ -633,7 +633,7 @@ return [
                 ]
             ],
             'cache' => [
-                'enabled' => false,
+                'enabled' => true,
                 'check' => [
                     'method' => 'file'
                 ],

@@ -1,11 +1,11 @@
 title: blog.andrewcudzilo.com(dev)
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
+  name: Andrew Cudzilo
+  email: 'andrew.cudzilo@gmail.com'
 blog:
   route: ''
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+    description: 'Code, Rambles, Fatherhood'
 taxonomies: [category,tag,month]
 redirects:
     /changelog: /blog/the-urban-jungle
