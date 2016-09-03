@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1472778043,
-    'checksum' => 'b74d0141da6908cfbc871c6f1da7992f',
+    'timestamp' => 1472875562,
+    'checksum' => '6ac2af02fd3dd7a3f20fd715dd3b6a8d',
     'files' => [
         'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config' => [
             'security' => [
@@ -15,7 +15,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/system.yaml',
-                'modified' => 1472777764
+                'modified' => 1472875325
             ]
         ],
         'user/config' => [
@@ -29,7 +29,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1472777721
+                'modified' => 1472873977
             ]
         ],
         'system/config' => [

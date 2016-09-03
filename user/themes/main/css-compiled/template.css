@@ -783,6 +783,11 @@ ul.pagination {
 .simplesearch hr {
   border-bottom: 1px solid #eee; }
 
+/* variables */
+/* mixins */
+/* base hand drawn appearance style, thick border */
+/* base hand drawn appearance, with thin border */
+/* post-it note appearance. */
 .grav-lightslider .lSSlideOuter .lSPager.lSpg > li a {
   z-index: 1; }
 
@@ -806,13 +811,104 @@ h1, h2, h3, h4, h5, h6 {
   display: inline; }
 
 .list-item .list-blog-date em {
-  display: inline; }
+  display: inline;
+  font-size: 1.2rem; }
 
 .social-links li a {
   color: #444; }
 
 .social-links li a:hover {
   color: red; }
+
+/* -- Breadcrumbs --*/
+#breadcrumbs {
+  /*    height: 3rem;*/
+  padding-bottom: .5rem; }
+
+#breadcrumbs span {
+  font-family: "Waiting for the Sunrise", cursive;
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+#breadcrumbs span:first-child {
+  font-size: 1.5rem;
+  color: #C00000; }
+
+#breadcrumbs span:last-child {
+  position: relative; }
+
+#breadcrumbs > span:last-child:after {
+  position: relative;
+  font-family: 'Reenie Beanie', cursive;
+  content: '\2190 you are here';
+  font-size: 1.2rem;
+  font-weight: bold;
+  top: -.5rem;
+  left: .5rem;
+  color: #C00000; }
+
+/* taxonomy links */
+span.tags > a {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 1.1rem; }
+
+div.sidebar-content a {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 1.1rem; }
+
+/* div stylizing for header tag line, article, and side content */
+div.list-blog-header {
+  padding: 1em;
+  background: white;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, white 0%, #e5e5e5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, white 0%, #e5e5e5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, white 0%, #e5e5e5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+  -moz-box-shadow: 5px 5px 7px #212121;
+  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  /*-moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+  */
+  border-radius: 2px;
+  border: 1px solid #E5E5E5; }
+
+div.list-blog-padding {
+  padding: 1em;
+  background: white;
+  /* Old browsers */
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e5e5e5));
+  background: -webkit-linear-gradient(white 0%, #e5e5e5 100%);
+  background: -moz-linear-gradient(white 0%, #e5e5e5 100%);
+  background: -o-linear-gradient(white 0%, #e5e5e5 100%);
+  background: linear-gradient(white 0%, #e5e5e5 100%);
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  border-radius: 2px;
+  border: 1px solid #E5E5E5; }
+
+div.sidebar-content {
+  padding: 1em;
+  text-decoration: none;
+  color: #000;
+  background: #ffc;
+  display: block;
+  -moz-box-shadow: 5px 5px 7px #212121;
+  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+  /*-moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;*/
+  border-radius: 2px;
+  border: 1px solid #E5E5B7; }
 
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);

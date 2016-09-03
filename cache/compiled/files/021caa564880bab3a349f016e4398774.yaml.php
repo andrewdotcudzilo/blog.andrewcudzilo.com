@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ubuntu/workspace/user/blogdotandrewcudzilodotcom-andrewdotcudzilo.c9users.io/config/system.yaml',
-    'modified' => 1472777764,
+    'modified' => 1472875325,
     'data' => [
         'home' => [
             'alias' => '/blog'
