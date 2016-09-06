@@ -876,7 +876,7 @@ div.list-blog-header {
   -webkit-transition:-webkit-transform .15s linear;
   */
   border-radius: 2px;
-  border: 1px solid #E5E5E5; }
+  border: 1px solid #252423; }
 
 div.list-blog-padding {
   padding: 1em;
@@ -893,7 +893,9 @@ div.list-blog-padding {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
   box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
   border-radius: 2px;
-  border: 1px solid #E5E5E5; }
+  border: 1px solid #E5E5E5;
+  border: 1px solid #252423;
+  border: 1px solid #252423; }
 
 div.sidebar-content {
   padding: 1em;
@@ -908,7 +910,16 @@ div.sidebar-content {
   -o-transition:-o-transform .15s linear;
   -webkit-transition:-webkit-transform .15s linear;*/
   border-radius: 2px;
-  border: 1px solid #E5E5B7; }
+  border: 1px solid #E5E5B7;
+  border: 1px solid #252423; }
+
+/* make the home link bigger; as the text misconstrues it */
+#navbar > ul > li > a {
+  font-size: 2rem; }
+
+/* main site header-line -- make bigger */
+#logo > h3 > a {
+  font-size: 2.5rem; }
 
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);

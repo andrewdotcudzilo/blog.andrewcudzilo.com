@@ -27,7 +27,8 @@ $font-family-breadcrumb:  'Waiting for the Sunrise', cursive;
   -webkit-transition:-webkit-transform .15s linear;
   */
   border-radius: 2px;
-  border: 1px solid #E5E5E5;
+  // border: 1px solid #E5E5E5;
+  border: 1px solid #252423;
 }
 
 /* base hand drawn appearance, with thin border */
@@ -48,6 +49,9 @@ $font-family-breadcrumb:  'Waiting for the Sunrise', cursive;
   
   border-radius: 2px;
   border: 1px solid #E5E5E5;
+  border: 1px solid #252423;
+  border: 1px solid #252423;
+  
 }
 
 /* post-it note appearance. */
@@ -65,9 +69,9 @@ $font-family-breadcrumb:  'Waiting for the Sunrise', cursive;
   -webkit-transition:-webkit-transform .15s linear;*/
   border-radius: 2px;
   border: 1px solid #E5E5B7;
+  border: 1px solid #252423;
+  
 }
-
-
 
 
 
@@ -168,4 +172,15 @@ div.list-blog-padding {
 
 div.sidebar-content {
   @include hand-draw-post-note;
+}
+
+/* make the home link bigger; as the text misconstrues it */
+#navbar > ul > li > a {
+  font-size: 2rem;
+}
+
+/* main site header-line -- make bigger */
+#logo > h3 > a {
+  font-size: 2.5rem;
+  
 }

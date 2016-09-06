@@ -282,7 +282,7 @@ class __TwigTemplate_e3ac89136cc82b5edd3f15a0c1678a49dbf9c0a4008b9ec3b9e3096b954
             <div class=\"totop\">
                 <span><a href=\"#\" id=\"toTop\"><i class=\"fa fa-arrow-up\"></i></a></span>
             </div>
-            <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
+            <p> <i class=\"fa fa-code\"></i> by </i><a href=\"http://www.andrewcudzilo.com\">andrewcudzilo.com</a> based on <a href=\"http://getgrav.org\">Grav</a>.</p>
         </footer>
         ";
     }
@@ -396,7 +396,7 @@ class __TwigTemplate_e3ac89136cc82b5edd3f15a0c1678a49dbf9c0a4008b9ec3b9e3096b954
 /*             <div class="totop">*/
 /*                 <span><a href="#" id="toTop"><i class="fa fa-arrow-up"></i></a></span>*/
 /*             </div>*/
-/*             <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>*/
+/*             <p> <i class="fa fa-code"></i> by </i><a href="http://www.andrewcudzilo.com">andrewcudzilo.com</a> based on <a href="http://getgrav.org">Grav</a>.</p>*/
 /*         </footer>*/
 /*         {% endblock %}*/
 /*     </div>*/
