@@ -921,6 +921,18 @@ div.sidebar-content {
 #logo > h3 > a {
   font-size: 2.5rem; }
 
+ul.social-links {
+  list-style-type: none; }
+
+.social-links li a {
+  color: #444;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.social-links li a:hover {
+  color: red; }
+
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }

@@ -18,8 +18,16 @@
 </div>
 {% endif %}
 <div class="sidebar-content">
-	<h4>{{ 'SIDEBAR.SOME_TEXT_WIDGET.HEADLINE'|t }}</h4>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	<h4>Social</h4>
+	<p>
+	    <ul class="social-links">
+            <li><a href="https://github.com/andrewdotcudzilo" target="_new"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+            <li><a href=""><i class="fa fa-facebook-square" target="_new" aria-hidden="true"></i> Facebook</a></li>
+            <li><a href=""><i class="fa fa-linkedin-square" target="_new" aria-hidden="true"></i> LinkedIn</a></li>
+            <li><a href=""><i class="fa fa-instagram" target="_new" aria-hidden="true"></i> Instagram</a></li>
+            <li><a href=""><i class="fa fa-twitter-square" target="_new" aria-hidden="true"></i> Twitter</a></li>
+     	</ul>
+	</p>
 </div>
 {% if config.plugins.taxonomylist.enabled %}
 <div class="sidebar-content">

@@ -10,6 +10,14 @@ $(function(){
     $('div.list-blog-header, div.list-blog-padding').each(function(){
         rotate($(this), getRandomArbitrary(-1, 1));
     });
+    
+    $('#sidebar > div:nth-child(1) > h4').each(function(){
+       $(this).css({'margin-left':getRandomArbitrary(1, 30)+'px'}) ;
+    });
+    
+    $('ul.social-links li').each(function(){
+       $(this).css({ 'padding-left':getRandomArbitrary(1, 25)+'px'});
+    });
 
 });
 

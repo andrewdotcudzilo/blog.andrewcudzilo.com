@@ -7,14 +7,14 @@ en:
       PREV_POST: Previous Post
   SIDEBAR:
     SIMPLE_SEARCH:
-      HEADLINE: SimpleSearch
+      HEADLINE: Search
     RELATED_POSTS:
       HEADLINE: Related Posts
     RANDOM_ARTICLE:
       HEADLINE: Random Article
       FEELING_LUCKY: I'm Feeling Lucky!
     SOME_TEXT_WIDGET:
-      HEADLINE: Some Text Widget
+      HEADLINE: Social
     POPULAR_TAGS:
       HEADLINE: Popular Tags
     ARCHIVES:
