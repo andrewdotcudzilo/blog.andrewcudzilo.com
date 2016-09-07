@@ -11,7 +11,7 @@ $(function(){
         rotate($(this), getRandomArbitrary(-1, 1));
     });
     
-    $('#sidebar > div:nth-child(1) > h4').each(function(){
+    $('#sidebar > div > h4').each(function(){
        $(this).css({'margin-left':getRandomArbitrary(1, 30)+'px'}) ;
     });
     

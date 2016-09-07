@@ -3,7 +3,7 @@ author:
   name: Andrew Cudzilo
   email: 'andrew.cudzilo@gmail.com'
 blog:
-  route: ''
+  route: '/blog'
 metadata:
     description: 'Code, Rambles, Fatherhood'
 taxonomies: [category,tag,month]

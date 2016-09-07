@@ -1,0 +1,9 @@
+1473817034
+a:2:{s:7:"content";s:609:"<p>So, why run an apt-cacher server in your infrastructure?</p>
+<ul>
+<li>You run multiple linux hosts; namely of a specific flavor (in our case, Debian/Ubuntu).</li>
+<li>Manual configuration of sources mirror only gets you so much return; your still at the mercy of upstream provider</li>
+<li>You want the speed of delivery of local-hosted updates -- without the commitment of running a complete mirror</li>
+<li>Bandwidth or disk-space may be a concern</li>
+<li>You (may) run multiple versions of a similar distribution (precise, trusty, xenial) but want your mirrors somewhat separate per versions</li>
+</ul>";s:12:"content_meta";N;}
